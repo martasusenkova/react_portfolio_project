@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container">
         <div className="nav-row">
           <NavLink to="/" className="logo">
-            <strong>Freelancer</strong> portfolio
+            <strong>Frontend Developer</strong>
           </NavLink>
 
           <BtnDarkMode />
@@ -22,8 +22,7 @@ const Navbar = () => {
             <li className="nav-list__item">
               <NavLink
                 to="/ "
-                className={(isActive) => (isActive ? activeLink : normalLink)}
-              >
+                className={(isActive) => (isActive ? activeLink : normalLink)}>
                 {" "}
                 Home
               </NavLink>
@@ -31,8 +30,7 @@ const Navbar = () => {
             <li className="nav-list__item">
               <NavLink
                 to="/projects "
-                className={(isActive) => (isActive ? activeLink : normalLink)}
-              >
+                className={(isActive) => (isActive ? activeLink : normalLink)}>
                 {" "}
                 Projects
               </NavLink>
@@ -40,8 +38,7 @@ const Navbar = () => {
             <li className="nav-list__item">
               <NavLink
                 to="/contacts "
-                className={(isActive) => (isActive ? activeLink : normalLink)}
-              >
+                className={(isActive) => (isActive ? activeLink : normalLink)}>
                 {" "}
                 Contacts
               </NavLink>

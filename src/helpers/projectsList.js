@@ -15,19 +15,19 @@ import project05Big from "./../img/projects/05-big.jpg";
 
 const projects = [
   {
-    title: "Gaming streaming portal",
-    skills: "React, Node.js, MongoDB",
+    title: "TMS Course Project",
+    skills: " HTML, CSS, SCSS, JavaScript, Parcel",
     img: project01,
     imgBig: project01Big,
-    gitHubLink: "http://github.com",
+    gitHubLink: "https://martasusenkova.github.io/html-css-course-project/",
   },
   {
-    title: "Video service",
-    skills: "React, PHP, MySql",
+    title: "Wildberries Team Project",
+    skills: "JavaScript, SCSS, Vite, MockAPI ",
     img: project02,
     imgBig: project02Big,
 
-    gitHubLink: "http://github.com",
+    gitHubLink: "https://martasusenkova.github.io/Wildberries_Course_project/",
   },
   {
     title: "Video portal",

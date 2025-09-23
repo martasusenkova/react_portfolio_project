@@ -2,7 +2,6 @@ import "./styles/main.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
-import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
@@ -20,7 +19,6 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/project/:id" element={<Project />} />
         </Routes>
-        <Header />
         <Footer />{" "}
       </Router>
     </div>
