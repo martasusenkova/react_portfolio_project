@@ -30,28 +30,22 @@ const projects = [
     gitHubLink: "https://martasusenkova.github.io/Wildberries_Course_project/",
   },
   {
-    title: "Video portal",
-    skills: "React, Node.js, MongoDB",
+    title: "Nike website",
+    skills: "React, Tailwind CSS ",
     img: project03,
     imgBig: project03Big,
 
-    gitHubLink: "http://github.com",
+    gitHubLink: "https://martasusenkova.github.io/nike-tailwind-react-project/",
   },
-  {
-    title: "Gaming streaming portal",
-    skills: "Vue JS, Node.js, MongoDB",
-    img: project04,
-    imgBig: project04Big,
 
-    gitHubLink: "http://github.com",
-  },
   {
-    title: "Dating app",
-    skills: "React Native",
+    title: "Calendar with ToDo",
+    skills: "JavaScript, HTML, CSS",
     img: project05,
     imgBig: project05Big,
 
-    gitHubLink: "http://github.com",
+    gitHubLink:
+      "https://martasusenkova.github.io/Calendar-with-Todo-in-HTML-CSS-and-JS/",
   },
 ];
 export { projects };
