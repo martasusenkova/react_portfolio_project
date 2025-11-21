@@ -14,6 +14,7 @@ function App() {
       <Router>
         <ScrollToTop /> <Navbar />
         <Routes>
+          <Route path="/react_portfolio_project" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contacts" element={<Contacts />} />
