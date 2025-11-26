@@ -16,7 +16,7 @@ const Header = () => {
           Download CV
         </a>
         <a
-          href="https://drive.google.com/file/d/176G8ZfbYKERpNc_n7LRO8KBtii7ffMt5/view?usp=sharing"
+          href="https://drive.google.com/file/d/1zJ60zmM0GnTXrtnrnimPyVlz3KfpQsQh/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer">
           Посмотреть по ссылке{" "}
